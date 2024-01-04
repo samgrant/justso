@@ -64,7 +64,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  arm64-darwin-22
+  arm64-darwin
 
 DEPENDENCIES
   jekyll (= 4.3.3)
@@ -72,4 +72,4 @@ DEPENDENCIES
   jekyll-sitemap
 
 BUNDLED WITH
-   2.4.13
+   2.5.4
