@@ -32,7 +32,7 @@ $error-color: {{ site.data.settings.color_settings.error_color }};
 
 
 // Fonts
-
+$logo-font: {{ site.data.settings.font_settings.logo_font }};
 $body-font: {{ site.data.settings.font_settings.body_font }};
 $title-font: {{ site.data.settings.font_settings.title_font }};
 
