@@ -33,7 +33,7 @@ The main things you might need to change here are:
 
 `url:` – the full URL that your site will be hosted at, e.g. https://your-domain.com
 
-`baseurl:` – add a base URL here if you will be publishing the site inside a folder, e.g. https://your-domain.com/project/ – or if you're hosting it as a 'project page' on GitHub Pages. Example: `baseurl: /project`
+`baseurl:` – add a base URL here if you will be publishing the site inside a folder, e.g. https://your-domain.com/gallery/ – or if you're hosting it as a 'project page' on GitHub Pages. Example: `baseurl: /project`
 
 When using baseurl, you should reference images in your post/project Frontmatter **without** the baseurl, e.g. `/images/image.jpg` but images inside the Markdown content **should include** the baseurl snippet, e.g. `{{site.baseurl}}/images/image.jpg`
 
