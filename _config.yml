@@ -48,7 +48,7 @@ kramdown:
 sass:
   style: compressed
   # hide deprecation warnings
-  quiet_deps: true 
+  quiet_deps: false 
 
 plugins:
   - jekyll-paginate
