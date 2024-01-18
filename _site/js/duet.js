@@ -192,7 +192,7 @@
 			// Wrap images
 			$this.find('.gallery__wrap img').each( function() {
 				var imageSrc = $(this).attr('src');
-				$(this).wrapAll('<div class="gallery__item"><a href="' + imageSrc + '" class="gallery__item__link"></div></div>').appendTo();
+				$(this).wrapAll('<div class="gallery__item"><a href="' + imageSrc + '" class="gallery__item__link"><span>title</span></div></div>').appendTo();
 			});
 
 			// Wait for images to load
