@@ -43,7 +43,7 @@
 .gallery--carousel {
 
 	.gallery__wrap {
-
+		@extend .wrap;
 	}
 	
 	.gallery__item {
@@ -97,7 +97,6 @@
 		//margin-right: math.div($grid-spacing,2);
 		margin-left: ($grid-spacing/2);
 		margin-right: ($grid-spacing/2);
-		
 	}
 	
 	.gallery__item {

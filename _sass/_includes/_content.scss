@@ -19,12 +19,9 @@
 }
 
 .content-wrap {
-
-	@include mq(tabletp) {
-		max-width: 90%;
-		margin: 0 auto;
-	}
+	@extend .wrap;
 }
+
 
 .single {
 
