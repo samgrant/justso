@@ -1,0 +1,47 @@
+---
+layout: default
+title: This is a story
+description: A beautiful
+featured_image: /images/social.jpg
+---
+
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>A poor life this if, full of care,</h1>
+		<p><i>... we have no time to stand and stare.</i></p>
+
+	</div>
+</section>
+
+<section class="portfolio">
+
+	<div class="content-wrap portfolio-wrap">
+
+		{% for gallery in site.galleries reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ gallery.url | relative_url }}">
+
+				<div class="portfolio-item__image">
+					<img src="{{ gallery.featured_image | relative_url }}" alt="{{ gallery.title }}">
+				</div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ gallery.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ gallery.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>

@@ -9,10 +9,10 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Pictures'
-      url: '/'
     - title: 'Words'
-      url: '/blog/'
+      url: '/'
+    - title: 'Pictures'
+      url: '/gallery'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
