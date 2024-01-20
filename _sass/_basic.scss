@@ -222,8 +222,8 @@ a {
 	}
 
 	&:hover {
-		background: adjust-hue($accent-color,15);
-		border-color: adjust-hue($accent-color,15);
+		background: adjust-hue($accent-color,15%);
+		border-color: adjust-hue($accent-color,15%);
 		color: $background-color;
 	}
 
@@ -358,15 +358,15 @@ section {
 	margin-top: 40px;
 
 	@include mq(tabletp) {
-		margin-top: 40px;
-	}
-
-	@include mq(tabletl) {
 		margin-top: 50px;
 	}
 
-	@include mq(laptop) {
+	@include mq(tabletl) {
 		margin-top: 60px;
+	}
+
+	@include mq(laptop) {
+		margin-top: 80px;
 	}
 }
 

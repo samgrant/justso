@@ -3,21 +3,18 @@
 // Portfolio
 
 // - - - - - - - - - - - - - - - - - -
-@use 'sass:math';
 
 .portfolio {
-//	padding: 0 math.div($grid-spacing,2);
-	padding: 10 ($grid-spacing/2);
+	padding: 0 $grid-spacing/2;
 }
 
 .portfolio-wrap {
-	@extend .wrap;
+	
 }
 
 .portfolio-item {
 	position: relative;
-	//padding: math.div($grid-spacing,2);
-	padding: ($grid-spacing/2);
+	padding: $grid-spacing/2;
 	float: left;
 	width: 50%;
 }
@@ -34,6 +31,13 @@
 				opacity: 1;
 				visibility: visible;
 			}
+		}
+	}
+
+	@include mq(phonel) {
+		.portfolio-item__content {
+			opacity: 1;
+			visibility: visible;
 		}
 	}
 }

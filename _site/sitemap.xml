@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/gallery/demo-project-copy</loc>
-<lastmod>2018-06-30T01:00:00+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/gallery/demo-project</loc>
-<lastmod>2018-06-30T01:00:00+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/gallery/demo</loc>
-<lastmod>2024-01-03T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/gallery/the-puppy-copy</loc>
-<lastmod>2024-01-03T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/gallery/walking</loc>
 <lastmod>2024-01-03T00:00:00+00:00</lastmod>
 </url>
@@ -25,16 +9,20 @@
 <lastmod>2024-01-17T20:22:00+00:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/gallery/seaside</loc>
+<lastmod>2024-01-19T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about</loc>
-<lastmod>2024-01-19T12:19:19+00:00</lastmod>
+<lastmod>2024-01-20T13:32:46+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/contact</loc>
-<lastmod>2024-01-19T12:19:19+00:00</lastmod>
+<lastmod>2024-01-20T13:32:46+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/thanks</loc>
-<lastmod>2024-01-19T12:19:19+00:00</lastmod>
+<lastmod>2024-01-20T13:32:46+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/black-dog</loc>

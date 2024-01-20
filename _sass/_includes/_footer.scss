@@ -28,6 +28,10 @@
 .footer__logo {
 	display: block;
 	width: $footer-logo-width;
+
+	&:hover {
+		color: $text-dark-color;
+	}
 }
 
 .footer__title {

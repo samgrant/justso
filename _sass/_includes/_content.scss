@@ -1,6 +1,6 @@
 // - - - - - - - - - - - - - - - - - -
 
-// Single page/post/gallery
+// Single page/post/project
 
 // - - - - - - - - - - - - - - - - - -
 
@@ -19,9 +19,12 @@
 }
 
 .content-wrap {
-	@extend .wrap;
-}
 
+	@include mq(tabletp) {
+		max-width: 90%;
+		margin: 0 auto;
+	}
+}
 
 .single {
 

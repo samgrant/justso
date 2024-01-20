@@ -4,43 +4,25 @@
 
 // - - - - - - - - - - - - - - - - - -
 
-@use 'sass:math';
-
-.container {
-	display: flex;
-	justify-content: space-between;
-	padding: 20px;
-}
-
-.column {
-	flex: 1;
-	padding: 20px;
-	border: 1px solid #ccc;
-	box-sizing: border-box;
-}
-
-.img-left {
-	float: left;
- 	margin-right: 1em;
-	padding: 20px;
-	width: 50%;
-}
-
 .blog {
-	//padding: 0 math.div($grid-spacing,2)
-	padding: 0 ($grid-spacing/2);
+	padding: 0 $grid-spacing/2;
 }
 
 .blog-wrap {
-	@extend .wrap;
+	
 }
 
 .blog-post {
 	position: relative;
-	//padding: math.div($grid-spacing,2);
-	padding: ($grid-spacing/2);
+	padding: $grid-spacing/2;
 	float: left;
 	width: 50%;
+}
+
+.letterbox-img {
+	width: 80%; height: 250px; 
+	object-fit:cover; 
+	object-position: 50% 25%;
 }
 
 .blog-post__link {
