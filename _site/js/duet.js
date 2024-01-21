@@ -193,6 +193,8 @@
 			$this.find('.gallery__wrap img').each( function() {
 				var imageSrc = $(this).attr('src');
 				$(this).wrapAll('<div class="gallery__item"><a href="' + imageSrc + '" class="gallery__item__link"></div></div>').appendTo();
+				//Lightbox2 with captions
+				//$(this).wrapAll('<div class="gallery__item"><a href="' + imageSrc + '" class="example-image-link" data-lightbox="example-set" data-title="Click the right half of the image to move forward."></div></div>').appendTo(); 
 			});
 
 			// Wait for images to load
