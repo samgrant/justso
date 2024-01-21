@@ -1,11 +1,16 @@
 ---
 ---
+
 // - - - - - - - - - - Foundations
 
-@import 'mixins';
-//@import 'mq';
-@import 'plugins';
-@import 'reset';
+@import "_reset"; 
+@import "_mixins";
+@import "_plugins";
+
+
+
+// - - - - - - - - - - Variables
+
 
 // Colors
 
@@ -27,6 +32,7 @@ $error-color: {{ site.data.settings.color_settings.error_color }};
 
 
 // Fonts
+
 $logo-font: {{ site.data.settings.font_settings.logo_font }};
 $body-font: {{ site.data.settings.font_settings.body_font }};
 $title-font: {{ site.data.settings.font_settings.title_font }};
@@ -129,6 +135,8 @@ $footer-logo-width: {{ site.data.settings.footer_settings.logo_width }}px;
 // Grid item
 $overlay-opacity: {{ site.data.settings.grid_settings.overlay_opacity }};
 $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
+
+
 
 // - - - - - - - - - - Global styles
 
