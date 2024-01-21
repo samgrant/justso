@@ -48,7 +48,7 @@
 
 	hr {
 		margin: 30px auto;
-		width: calc(100vw - 60px);
+		width: 100vw - 60px;
 		max-width: 440px;
 
 		@include mq(tabletp) {
