@@ -23,7 +23,7 @@
 	position: relative;
 	display: block;
 
-	@include mq($from:tabletp) {
+	@include mq(tabletp) {
 
 		&:hover {
 
@@ -34,12 +34,12 @@
 		}
 	}
 
-	// @include mq($until:tabletp) {
-	// 	.portfolio-item__content {
-	// 		opacity: 1;
-	// 		visibility: visible;
-	// 	}
-	// }
+	@include mq(tabletp) {
+		.portfolio-item__content {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
 }
 
 .portfolio-item__image {
