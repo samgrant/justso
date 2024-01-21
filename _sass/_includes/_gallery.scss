@@ -41,23 +41,10 @@
 
 .gallery--carousel {
 
-	.gallery__wrap {
-
-	}
-	
-	.gallery__item {
-
-	}
-
 	.gallery__item__link {
 		display: block;
 		pointer-events: none;
 	}
-
-	.gallery__item__image {
-
-	}
-
 	.owl-nav {
 		display: none;
 	}
@@ -99,7 +86,7 @@
 	.gallery__item {
 		float: left;
 		width: 50%;
-		padding: $grid-spacing/2;
+		padding: calc($grid-spacing/2);
 	}
 
 	.gallery__item__link {

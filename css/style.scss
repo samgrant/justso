@@ -1,16 +1,11 @@
 ---
 ---
-
 // - - - - - - - - - - Foundations
 
-@import "_reset";
-@import "_mixins";
-@import "_plugins";
-@import "_mq";
-
-
-// - - - - - - - - - - Variables
-
+@import 'mixins';
+@import 'mq';
+@import 'plugins';
+@import 'reset';
 
 // Colors
 
@@ -135,8 +130,6 @@ $footer-logo-width: {{ site.data.settings.footer_settings.logo_width }}px;
 $overlay-opacity: {{ site.data.settings.grid_settings.overlay_opacity }};
 $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
-
-
 // - - - - - - - - - - Global styles
 
 @import "_basic";
@@ -149,8 +142,6 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import "_includes/_gallery";
 @import "_includes/_syntax";
 @import "_includes/_contact-form";
-
-
 
 // - - - - - - - - - - Section styles
 
