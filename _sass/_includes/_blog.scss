@@ -16,9 +16,14 @@
 }
 
 .letterbox-img {
-	width: 80%; height: 250px; 
+	width: 80%; 
+	height: 150px; 
 	object-fit:cover; 
 	object-position: 50% 25%;
+
+	@include mq(tabletp) {
+		height: 250px; 
+	}
 }
 
 .blog-post__link {

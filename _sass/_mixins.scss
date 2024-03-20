@@ -8,15 +8,20 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Responsive
 // Usage: @include mq(tabletp) {}
 
-$break-phonel: 480px;
-$break-tabletp: 768px;
-$break-tabletl: 1024px;
-$break-laptop: 1220px;
-$break-desktop: 1420px;
+/* Extra small devices (phones, 600px and down) */
+$break-mobile: 600px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+$break-tabletp: 600px;
+/* Medium devices (landscape tablets, 768px and up) */
+$break-tabletl: 768px;
+/* Large devices (laptops/desktops, 992px and up) */
+$break-laptop: 992px;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+$break-desktop: 1200px;
 
 @mixin mq($media) {
-	@if $media == phonel {
-		@media only screen and (min-width: $break-phonel) { @content; }
+	@if $media == mobile {
+		@media only screen and (max-width: $break-mobile) { @content; }
 	}
 	@else if $media == tabletp {
 		@media only screen and (min-width: $break-tabletp) { @content; }
